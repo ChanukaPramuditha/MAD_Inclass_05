@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="440" height="440">
+  <defs>
+    <clipPath id="clip"><circle cx="110" cy="110" r="74"/></clipPath>
+  </defs>
+  <!-- Soft white ring and blush-grey inner rim, like the reference avatar -->
+  <circle cx="110" cy="110" r="105" fill="#FAFAFB"/>
+  <circle cx="110" cy="110" r="91" fill="#F3F4F6" stroke="#EAEBEE" stroke-width="2.5"/>
+  <circle cx="110" cy="110" r="76" fill="#FCFDFE" stroke="#E5DDE0" stroke-width="2"/>
+  <g clip-path="url(#clip)">
+    <path d="M31 207 C39 166 56 151 84 145 L95 138 L124 138 L135 145 C168 149 184 171 190 210Z" fill="#2C3037"/>
+    <path d="M94 127 H126 V156 C122 170 100 170 94 155Z" fill="#E9EDF0" stroke="#555B62" stroke-width="2.4"/>
+    <!-- swept dark hair -->
+    <path d="M67 97 C61 76 66 54 79 44 C90 34 112 33 122 37 C136 34 152 47 152 62 C157 69 153 92 150 101 L143 94 L142 74 C132 60 112 67 96 65 C82 65 72 73 74 98Z" fill="#232935"/>
+    <path d="M69 79 C65 53 88 39 107 39 C122 38 139 42 147 55 C134 48 122 50 110 53 C92 50 81 58 69 79Z" fill="#171E29"/>
+    <!-- face -->
+    <path d="M75 84 C78 71 90 66 111 68 C131 65 145 75 145 89 L142 122 C138 139 124 146 110 147 C94 146 82 138 78 122Z" fill="#F1F3F5" stroke="#565B63" stroke-width="2.8"/>
+    <path d="M75 104 C67 100 65 107 70 118 C72 122 76 124 79 120" fill="#F1F3F5" stroke="#555B62" stroke-width="2"/>
+    <path d="M146 104 C153 100 156 107 150 118 C148 122 145 123 142 120" fill="#F1F3F5" stroke="#555B62" stroke-width="2"/>
+    <!-- glasses, bridge, temples -->
+    <g fill="none" stroke="#292F39" stroke-width="3.8" stroke-linecap="round">
+      <ellipse cx="91" cy="99" rx="15" ry="12"/>
+      <ellipse cx="129" cy="99" rx="15" ry="12"/>
+      <path d="M106 97 C109 93 111 93 114 97 M76 97 L69 94 M144 97 L151 94"/>
+    </g>
+    <path d="M109 100 Q105 115 109 117" fill="none" stroke="#A4A9AE" stroke-width="2"/>
+    <path d="M103 129 Q111 134 120 129" fill="none" stroke="#373D45" stroke-width="3" stroke-linecap="round"/>
+    <!-- neckline -->
+    <path d="M91 143 Q108 172 130 142" fill="none" stroke="#E9ECEF" stroke-width="7"/>
+  </g>
+  <!-- bright green validation check -->
+  <path d="M130 153 L146 167 L176 127" fill="none" stroke="#26C83A" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
